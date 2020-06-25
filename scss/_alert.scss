@@ -36,7 +36,8 @@
     right: 0;
     width: add($close-width, $alert-padding-x);
     height: 100%;
-    background-size: $close-width;
+    color: inherit;
+    mask-size: $close-width;
   }
 }
 

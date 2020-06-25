@@ -3,10 +3,11 @@
   height: $close-height;
   @include font-size($close-font-size);
   color: $close-color;
-  background-image: escape-svg($close-icon);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: contain;
+  background-color: currentColor;
+  mask-image: escape-svg($close-icon);
+  mask-repeat: no-repeat;
+  mask-position: 50%;
+  mask-size: contain;
   opacity: .5;
 
   // Override <a>'s hover style
@@ -34,6 +35,5 @@
 // stylelint-disable-next-line selector-no-qualifying-type
 button.close {
   padding: 0;
-  background-color: transparent;
   border: 0;
 }
