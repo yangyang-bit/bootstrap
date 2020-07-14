@@ -150,7 +150,7 @@ class Toast {
     config = {
       ...Default,
       ...$(this._element).data(),
-      ...typeof config === 'object' && config ? config : {}
+      ...(typeof config === 'object' && config ? config : {})
     }
 
     Util.typeCheckConfig(
