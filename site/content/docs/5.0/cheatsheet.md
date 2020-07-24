@@ -562,13 +562,13 @@ toc: true
 
 {{< example show_markup="false" >}}
 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-  <div class="btn-group mr-2" role="group" aria-label="First group">
+  <div class="btn-group me-2" role="group" aria-label="First group">
     <button type="button" class="btn btn-secondary">1</button>
     <button type="button" class="btn btn-secondary">2</button>
     <button type="button" class="btn btn-secondary">3</button>
     <button type="button" class="btn btn-secondary">4</button>
   </div>
-  <div class="btn-group mr-2" role="group" aria-label="Second group">
+  <div class="btn-group me-2" role="group" aria-label="Second group">
     <button type="button" class="btn btn-secondary">5</button>
     <button type="button" class="btn btn-secondary">6</button>
     <button type="button" class="btn btn-secondary">7</button>
@@ -694,7 +694,7 @@ toc: true
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link btn-block text-start" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Collapsible Group Item #1
         </button>
       </h2>
@@ -708,7 +708,7 @@ toc: true
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn btn-link btn-block text-start collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Collapsible Group Item #2
         </button>
       </h2>
@@ -722,7 +722,7 @@ toc: true
   <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link btn-block text-start collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Collapsible Group Item #3
         </button>
       </h2>
@@ -1087,7 +1087,7 @@ toc: true
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -1110,7 +1110,7 @@ toc: true
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-dark" type="submit">Search</button>
       </form>
     </div>
@@ -1126,7 +1126,7 @@ toc: true
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent2">
-      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -1149,7 +1149,7 @@ toc: true
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light" type="submit">Search</button>
       </form>
     </div>
@@ -1323,10 +1323,10 @@ toc: true
 {{< example show_markup="false" class="bg-dark" >}}
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
-    {{< placeholder width="20" height="20" background="#007aff" class="rounded mr-2" text="false" title="false" >}}
-    <strong class="mr-auto">Bootstrap</strong>
+    {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
+    <strong class="me-auto">Bootstrap</strong>
     <small class="text-muted">11 mins ago</small>
-    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+    <button type="button" class="ms-2 mb-1 close" data-dismiss="toast" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
